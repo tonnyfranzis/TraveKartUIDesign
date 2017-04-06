@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520302CD1E72C3BE001102E0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520302CC1E72C3BE001102E0 /* MenuViewController.swift */; };
+		520302CF1E72C3E8001102E0 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520302CE1E72C3E8001102E0 /* MenuTableViewCell.swift */; };
+		520302D11E72D455001102E0 /* FlashsaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520302D01E72D455001102E0 /* FlashsaleViewController.swift */; };
+		526337B31E726F6300538A8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526337B21E726F6300538A8A /* AppDelegate.swift */; };
+		526337BB1E726F6300538A8A /* TravKartTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 526337B91E726F6300538A8A /* TravKartTest.xcdatamodeld */; };
+		526337C01E726F6300538A8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526337BE1E726F6300538A8A /* LaunchScreen.storyboard */; };
+		526337CB1E726F6300538A8A /* TravKartTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526337CA1E726F6300538A8A /* TravKartTestTests.swift */; };
+		526337D61E726F6300538A8A /* TravKartTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526337D51E726F6300538A8A /* TravKartTestUITests.swift */; };
+		526337E41E726F7A00538A8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526337E31E726F7A00538A8A /* Main.storyboard */; };
+		526337E81E72738300538A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526337E71E72738300538A8A /* Assets.xcassets */; };
+		526337F21E727F7900538A8A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526337F11E727F7900538A8A /* HomeViewController.swift */; };
+		526337F91E7281A500538A8A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526337F81E7281A500538A8A /* SWRevealViewController.m */; };
+		526337FD1E72870E00538A8A /* LoginPageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526337FC1E72870E00538A8A /* LoginPageTableViewController.swift */; };
+		526338011E7287EA00538A8A /* GuestSignUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526338001E7287EA00538A8A /* GuestSignUpTableViewController.swift */; };
+		526338031E72881B00538A8A /* AgentSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526338021E72881B00538A8A /* AgentSignupViewController.swift */; };
+		52A3C2F01E740D41009CF91B /* SlideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A3C2EF1E740D41009CF91B /* SlideMenuTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		526337C71E726F6300538A8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 526337A71E726F6300538A8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 526337AE1E726F6300538A8A;
+			remoteInfo = TravKartTest;
+		};
+		526337D21E726F6300538A8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 526337A71E726F6300538A8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 526337AE1E726F6300538A8A;
+			remoteInfo = TravKartTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		520302CC1E72C3BE001102E0 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		520302CE1E72C3E8001102E0 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		520302D01E72D455001102E0 /* FlashsaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashsaleViewController.swift; sourceTree = "<group>"; };
+		526337AF1E726F6300538A8A /* TravKartTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravKartTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		526337B21E726F6300538A8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		526337BA1E726F6300538A8A /* TravKartTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravKartTest.xcdatamodel; sourceTree = "<group>"; };
+		526337BF1E726F6300538A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		526337C11E726F6300538A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526337C61E726F6300538A8A /* TravKartTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravKartTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		526337CA1E726F6300538A8A /* TravKartTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravKartTestTests.swift; sourceTree = "<group>"; };
+		526337CC1E726F6300538A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526337D11E726F6300538A8A /* TravKartTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravKartTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		526337D51E726F6300538A8A /* TravKartTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravKartTestUITests.swift; sourceTree = "<group>"; };
+		526337D71E726F6300538A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526337E31E726F7A00538A8A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		526337E71E72738300538A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		526337F11E727F7900538A8A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		526337F61E7281A400538A8A /* TravKartTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TravKartTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		526337F71E7281A500538A8A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		526337F81E7281A500538A8A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		526337FC1E72870E00538A8A /* LoginPageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPageTableViewController.swift; sourceTree = "<group>"; };
+		526338001E7287EA00538A8A /* GuestSignUpTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuestSignUpTableViewController.swift; sourceTree = "<group>"; };
+		526338021E72881B00538A8A /* AgentSignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentSignupViewController.swift; sourceTree = "<group>"; };
+		52A3C2EF1E740D41009CF91B /* SlideMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		526337AC1E726F6300538A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526337C31E726F6300538A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526337CE1E726F6300538A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		526337A61E726F6300538A8A = {
+			isa = PBXGroup;
+			children = (
+				526337B11E726F6300538A8A /* TravKartTest */,
+				526337C91E726F6300538A8A /* TravKartTestTests */,
+				526337D41E726F6300538A8A /* TravKartTestUITests */,
+				526337B01E726F6300538A8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		526337B01E726F6300538A8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				526337AF1E726F6300538A8A /* TravKartTest.app */,
+				526337C61E726F6300538A8A /* TravKartTestTests.xctest */,
+				526337D11E726F6300538A8A /* TravKartTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		526337B11E726F6300538A8A /* TravKartTest */ = {
+			isa = PBXGroup;
+			children = (
+				526337F71E7281A500538A8A /* SWRevealViewController.h */,
+				526337F81E7281A500538A8A /* SWRevealViewController.m */,
+				526337B21E726F6300538A8A /* AppDelegate.swift */,
+				526337E71E72738300538A8A /* Assets.xcassets */,
+				526337E31E726F7A00538A8A /* Main.storyboard */,
+				526337BE1E726F6300538A8A /* LaunchScreen.storyboard */,
+				526337C11E726F6300538A8A /* Info.plist */,
+				526337B91E726F6300538A8A /* TravKartTest.xcdatamodeld */,
+				526337F11E727F7900538A8A /* HomeViewController.swift */,
+				526337F61E7281A400538A8A /* TravKartTest-Bridging-Header.h */,
+				526337FC1E72870E00538A8A /* LoginPageTableViewController.swift */,
+				526338001E7287EA00538A8A /* GuestSignUpTableViewController.swift */,
+				526338021E72881B00538A8A /* AgentSignupViewController.swift */,
+				520302CC1E72C3BE001102E0 /* MenuViewController.swift */,
+				520302CE1E72C3E8001102E0 /* MenuTableViewCell.swift */,
+				520302D01E72D455001102E0 /* FlashsaleViewController.swift */,
+				52A3C2EF1E740D41009CF91B /* SlideMenuTableViewController.swift */,
+			);
+			path = TravKartTest;
+			sourceTree = "<group>";
+		};
+		526337C91E726F6300538A8A /* TravKartTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				526337CA1E726F6300538A8A /* TravKartTestTests.swift */,
+				526337CC1E726F6300538A8A /* Info.plist */,
+			);
+			path = TravKartTestTests;
+			sourceTree = "<group>";
+		};
+		526337D41E726F6300538A8A /* TravKartTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				526337D51E726F6300538A8A /* TravKartTestUITests.swift */,
+				526337D71E726F6300538A8A /* Info.plist */,
+			);
+			path = TravKartTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		526337AE1E726F6300538A8A /* TravKartTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526337DA1E726F6300538A8A /* Build configuration list for PBXNativeTarget "TravKartTest" */;
+			buildPhases = (
+				526337AB1E726F6300538A8A /* Sources */,
+				526337AC1E726F6300538A8A /* Frameworks */,
+				526337AD1E726F6300538A8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravKartTest;
+			productName = TravKartTest;
+			productReference = 526337AF1E726F6300538A8A /* TravKartTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		526337C51E726F6300538A8A /* TravKartTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526337DD1E726F6300538A8A /* Build configuration list for PBXNativeTarget "TravKartTestTests" */;
+			buildPhases = (
+				526337C21E726F6300538A8A /* Sources */,
+				526337C31E726F6300538A8A /* Frameworks */,
+				526337C41E726F6300538A8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				526337C81E726F6300538A8A /* PBXTargetDependency */,
+			);
+			name = TravKartTestTests;
+			productName = TravKartTestTests;
+			productReference = 526337C61E726F6300538A8A /* TravKartTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		526337D01E726F6300538A8A /* TravKartTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526337E01E726F6300538A8A /* Build configuration list for PBXNativeTarget "TravKartTestUITests" */;
+			buildPhases = (
+				526337CD1E726F6300538A8A /* Sources */,
+				526337CE1E726F6300538A8A /* Frameworks */,
+				526337CF1E726F6300538A8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				526337D31E726F6300538A8A /* PBXTargetDependency */,
+			);
+			name = TravKartTestUITests;
+			productName = TravKartTestUITests;
+			productReference = 526337D11E726F6300538A8A /* TravKartTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		526337A71E726F6300538A8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.hbs;
+				TargetAttributes = {
+					526337AE1E726F6300538A8A = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					526337C51E726F6300538A8A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 526337AE1E726F6300538A8A;
+					};
+					526337D01E726F6300538A8A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 526337AE1E726F6300538A8A;
+					};
+				};
+			};
+			buildConfigurationList = 526337AA1E726F6300538A8A /* Build configuration list for PBXProject "TravKartTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 526337A61E726F6300538A8A;
+			productRefGroup = 526337B01E726F6300538A8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				526337AE1E726F6300538A8A /* TravKartTest */,
+				526337C51E726F6300538A8A /* TravKartTestTests */,
+				526337D01E726F6300538A8A /* TravKartTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		526337AD1E726F6300538A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526337E41E726F7A00538A8A /* Main.storyboard in Resources */,
+				526337E81E72738300538A8A /* Assets.xcassets in Resources */,
+				526337C01E726F6300538A8A /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526337C41E726F6300538A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526337CF1E726F6300538A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		526337AB1E726F6300538A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526337FD1E72870E00538A8A /* LoginPageTableViewController.swift in Sources */,
+				526337BB1E726F6300538A8A /* TravKartTest.xcdatamodeld in Sources */,
+				520302D11E72D455001102E0 /* FlashsaleViewController.swift in Sources */,
+				52A3C2F01E740D41009CF91B /* SlideMenuTableViewController.swift in Sources */,
+				526337B31E726F6300538A8A /* AppDelegate.swift in Sources */,
+				526338031E72881B00538A8A /* AgentSignupViewController.swift in Sources */,
+				526337F21E727F7900538A8A /* HomeViewController.swift in Sources */,
+				520302CF1E72C3E8001102E0 /* MenuTableViewCell.swift in Sources */,
+				526338011E7287EA00538A8A /* GuestSignUpTableViewController.swift in Sources */,
+				526337F91E7281A500538A8A /* SWRevealViewController.m in Sources */,
+				520302CD1E72C3BE001102E0 /* MenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526337C21E726F6300538A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526337CB1E726F6300538A8A /* TravKartTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526337CD1E726F6300538A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526337D61E726F6300538A8A /* TravKartTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		526337C81E726F6300538A8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 526337AE1E726F6300538A8A /* TravKartTest */;
+			targetProxy = 526337C71E726F6300538A8A /* PBXContainerItemProxy */;
+		};
+		526337D31E726F6300538A8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 526337AE1E726F6300538A8A /* TravKartTest */;
+			targetProxy = 526337D21E726F6300538A8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		526337BE1E726F6300538A8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526337BF1E726F6300538A8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		526337D81E726F6300538A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		526337D91E726F6300538A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		526337DB1E726F6300538A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TravKartTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hbs.TravKartTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TravKartTest/TravKartTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		526337DC1E726F6300538A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TravKartTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hbs.TravKartTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TravKartTest/TravKartTest-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		526337DE1E726F6300538A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TravKartTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hbs.TravKartTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravKartTest.app/TravKartTest";
+			};
+			name = Debug;
+		};
+		526337DF1E726F6300538A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TravKartTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hbs.TravKartTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravKartTest.app/TravKartTest";
+			};
+			name = Release;
+		};
+		526337E11E726F6300538A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TravKartTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hbs.TravKartTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TravKartTest;
+			};
+			name = Debug;
+		};
+		526337E21E726F6300538A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TravKartTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hbs.TravKartTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TravKartTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		526337AA1E726F6300538A8A /* Build configuration list for PBXProject "TravKartTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526337D81E726F6300538A8A /* Debug */,
+				526337D91E726F6300538A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526337DA1E726F6300538A8A /* Build configuration list for PBXNativeTarget "TravKartTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526337DB1E726F6300538A8A /* Debug */,
+				526337DC1E726F6300538A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526337DD1E726F6300538A8A /* Build configuration list for PBXNativeTarget "TravKartTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526337DE1E726F6300538A8A /* Debug */,
+				526337DF1E726F6300538A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526337E01E726F6300538A8A /* Build configuration list for PBXNativeTarget "TravKartTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526337E11E726F6300538A8A /* Debug */,
+				526337E21E726F6300538A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		526337B91E726F6300538A8A /* TravKartTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				526337BA1E726F6300538A8A /* TravKartTest.xcdatamodel */,
+			);
+			currentVersion = 526337BA1E726F6300538A8A /* TravKartTest.xcdatamodel */;
+			path = TravKartTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 526337A71E726F6300538A8A /* Project object */;
+}
